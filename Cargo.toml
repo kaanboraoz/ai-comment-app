@@ -1,0 +1,11 @@
+[package]
+name = "ai-comment-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.8", features = ["derive"] }
+tokio = "1.38.0"
+genai = "0.1.1"
+regex = "1.10.5"
+walkdir = "2.5.0"
